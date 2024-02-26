@@ -1,0 +1,44 @@
+body {
+  background-color: #f0f0f0;
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 20px;
+  color: #333; /* Cor do texto no corpo */
+  background: url(fases-da-lua.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#cadastroForm {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: gray;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #4CAF50; /* Cor do título */
+}
+
+.form-label {
+  color: #555; /* Cor dos rótulos dos campos do formulário */
+}
+
+.form-control {
+  border-color: #4CAF50; /* Cor da borda dos campos do formulário */
+}
+
+.btn-primary {
+  background-color: #4CAF50;
+  border-color: #4CAF50;
+  color: #fff; /* Cor do texto no botão */
+}
+
+.btn-primary:hover {
+  background-color: #45a049;
+  border-color: #45a049;
+}
